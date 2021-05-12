@@ -1,0 +1,19 @@
+.sectionCount {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 50px;
+}
+.border2 {
+  line-height: 20px;
+  height: 30px;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.clue {
+  background-color: aquamarine;
+}
