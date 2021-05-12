@@ -15,6 +15,8 @@ console.log(generatedNumber);
 
 
 function onBtnTestClick(ev) {
+    ev.preventDefault();
+    
     counter += 1;
     console.log(`counter = ${counter}`);
     spanCounter.innerHTML = counter;
