@@ -1,19 +1,79 @@
-.sectionCount {
-  height: 500px;
-  width: 400px;
+
+body {
+  background-color: rgb(226, 221, 224);
+}
+.box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dadoBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  height: 80px;
+  margin-top: 50px;
+  border: 1px solid rgb(240, 93, 93);
+}
+
+.dado {
+  font-size: 30px;
+  color: rgb(184, 3, 3);
+  
+}
+
+@media all and (min-width:768px) {
+
+.dado {
+  font-size: 150px;
+  color: rgb(247, 144, 144);
 }
 .title {
-  font-size: 50px;
+  /* font-size: 8px; */
+  text-align: center;
 }
-.border2 {
+
+.inputNumber {
+  width: 500px;
+}
+}
+
+.input {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.inputNumber {
+  width: 250px;
+  height: 20px;
+  
+}
+
+.btnTest {
+  width: 100px;
+  margin-top: 20px;
+  height: 30px;
+}
+.sectionCount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+/* .border2 {
   line-height: 20px;
   height: 30px;
   justify-content: center;
   background-color: aquamarine;
-}
-
-.clue {
-  background-color: aquamarine;
-}
+} */

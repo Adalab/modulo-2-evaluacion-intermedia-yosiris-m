@@ -6,22 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/a22a8f4330.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <section class="sectionCount">
-      <h1 class="title">Adivina el número</h1>
+    <main>
+      <header class="box">
+        <div class="dadoBox">
+          <i class="fas fa-dice dado"></i>
+          <h5 class="title">Adivina el número</h5>
+          <i class="fas fa-dice dado"></i>
+        </div>
+      </header>
+      <div class="sectionCount">
+        <p class="border1">Escribe un número dale aceptar y juega</p>
+        <form class="input">
+          <input class="inputNumber" type="number" />
 
-      <p class="border1">Introduce aquí tu número</p>
-      <form>
-        <input class="inputNumber" type="number" />
+          <button class="btnTest">Aceptar</button>
+        </form>
 
-        <button class="btnTest">Prueba</button>
-      </form>
+        <p class="clue">Pista: escribe el número y dale a prueba</p>
 
-      <p class="clue">Pista: escribe el número y dale a prueba</p>
-
-      <p class="border2">Número de intentos: <span class="counter">0</span></p>
-    </section>
+        <p class="border2">
+          Número de intentos: <span class="counter">0</span>
+        </p>
+      </div>
+    </main>
 
     <script src="./main.js"></script>
   </body>
